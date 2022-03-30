@@ -1,7 +1,3 @@
-class Foods extends React.Component {
-  render() {
-    return [🍇,  🍋 , 🍉, 🍊, 🍍, 🍌]
-  }
-}
-
-export { Foods };
+import { Foods } from './foods.js';
+import { choice, remove } from './helpers.js';
+import React, { Component } from 'react';
