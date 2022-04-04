@@ -12,7 +12,7 @@ class BrokenClick extends Component {
 	render() {
 		return (
 			<div>
-				<h1>{this.state.clicked ? 'Clicked!!!' : 'Not Clicked'}</h1>
+				<h1>{this.state.clicked ? 'Clicked!' : 'Not clicked!'}</h1>
 				<button onClick={this.handleClick}>Click Me!</button>
 			</div>
 		);
